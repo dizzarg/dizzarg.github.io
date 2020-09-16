@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    font-family: PT Mono,PT Serif,serif,Helvetica,system-ui;
+}
+body {
+    margin: 0;
+}
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 80vw;
+}
+.box {
+    padding: 2rem;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0 0 59px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 59px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 59px 0 rgba(0,0,0,0.5);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul > li:before {
+    content: "🔸";
+    display: inline-block;
+    margin-left: 0.5em;
+    width: 1.3em;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:link, a:active, a:visited {
+    color: inherit;
+}
+
+/*!* Style all font awesome icons *!*/
+/*.fab {*/
+/*    padding: 20px;*/
+/*    font-size: 30px;*/
+/*    width: 50px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*}*/
+
+
+@media (max-width: 768px) {
+    .row {
+        width: 100vw;
+    }
+    /*.inner {*/
+    /*    display: inline-block;*/
+    /*    vertical-align: middle;*/
+    /*    margin-left: -0.35rem;*/
+    /*    padding: 5rem;*/
+    /*    background-color: whitesmoke;*/
+    /*    -webkit-box-shadow: 0px 0px 59px 0px rgba(0,0,0,0.5);*/
+    /*    -moz-box-shadow: 0px 0px 59px 0px rgba(0,0,0,0.5);*/
+    /*    box-shadow: 0px 0px 59px 0px rgba(0,0,0,0.5);*/
+    /*}*/
+}
