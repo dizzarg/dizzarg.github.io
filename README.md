@@ -1,2 +1,2 @@
-# kadyrovd.github.io
-Мой сайт визитка
+# dizzarg.github.io
+My personal page 
